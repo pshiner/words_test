@@ -7,10 +7,12 @@ sequences, in the same order, again one per line.
 
 For example, given the trivial dictionary containing only
 
-                arrows
-                carrots
-                give
-                me
+```
+arrows
+carrots
+give
+me
+```
 
 The outputs should be:
 
