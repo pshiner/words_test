@@ -29,3 +29,5 @@ rrow                    arrows
 
 Of course, 'arro' does not appear in the output, since it is
 found in more than one word.
+
+For the final solution, read in the following dictionary file: http://bit.ly/1jveLkY
