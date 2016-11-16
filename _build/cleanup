@@ -1,4 +1,5 @@
 do{ my $x = {
+       'blib' => 1,
        'Extra-Cleanup-*' => 1
      };
 $x; }

@@ -20,14 +20,10 @@ foreach my $w ( 'this', 'that', 'theater', 'theatrics' ) {
 
 
 my $wref = $wt->words();
-foreach my $w (@{$wref}) {
-	print $w,"\n";
-}
-
-
 my $sref = $wt->sequences();
-foreach my $s (@{$sref}) {
-	print $s,"\n";
+while (my $w = shift(@{$wref})) {
+	my $s = shift(@{$sref});
+	print $s,"\t",$w,"\n";
 }
 
 exit(0);
