@@ -1,0 +1,5 @@
+Build.pl
+lib/WordsTest.pm
+MANIFEST			This list of files
+t/basic_tests.t
+words_test.md

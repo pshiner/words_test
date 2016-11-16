@@ -1,0 +1,4 @@
+do{ my $x = {
+       'Extra-Cleanup-*' => 1
+     };
+$x; }
