@@ -33,6 +33,11 @@ Assumptions:
 * still doing this under windows and so didn't do the fancy single line invocation as describe just above
 * didn't put in the 'she-bang' syntax for bash/tcsh/sh to find and run perl auto-magically
 
+Other Ideas:
+* use 'slurp mode' on the file to eliminate the initial loop and then you can map {} @lst the result and get rid of the one loop
+* if you piped stdout and stderr to the sequences and words files on the command line you can get rid of the open()/close() of the files
+
+
 =cut
 
 ### End of File
